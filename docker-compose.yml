@@ -1,0 +1,8 @@
+services:
+	web:
+		image: compilada:01
+		expose:
+			-"80":"80"
+		command:
+		python3.10 /proyectofinal/appag1.py
+		python3.10 /proyectofinal/appag2.py
